@@ -1,0 +1,315 @@
+﻿
+@using Microsoft.AspNetCore.Identity
+@using Reward_Backoffice.Areas.Identity.Data
+
+@inject SignInManager<Reward_BackofficeUser> SignInManager
+@inject UserManager<Reward_BackofficeUser> UserManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Reward Backoffice</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/sidebar.css" />
+    <link rel="stylesheet" href="~/fontawesome/css/all.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom:0">
+            <div class="navbar-header">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/uobkh_logo_front.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>            
+                <partial name="_LoginPartial.cshtml" />            
+        </nav>
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <div id="menu">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="menu-inner">
+
+                    <ul>
+                        <li>
+                            <a href="#" class="menu-backoffice">
+                                Backoffice Management
+                                <span class="fas fa-angle-double-left backoffice"></span>
+                            </a>
+                            <ul class="menu-show">
+                                <li>
+                                    <a href="#" class="menu-groupmgr">
+                                        Group Manager
+                                        <span class="fas fa-angle-double-left groupmgr"></span>
+                                    </a>
+                                    <ul class="menu-show3">
+                                        <li>
+                                            <a asp-area="" asp-controller="DealersManagement" asp-action="Index"><span class="fas fa-angle-double-right "></span>Add Group</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fas fa-angle-double-right "></span>
+                                                View/Edit Group
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-dealer">
+                                        Dealer
+                                        <span class="fas fa-angle-double-left dealer"></span>
+                                    </a>
+                                    <ul class="menu-show2">
+                                        <li>
+                                            <a asp-area="" asp-controller="DealersManagement" asp-action="Index">View Dealer</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Test</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="menu-category" asp-area="" asp-controller="Category" asp-action="Index">
+                                Category
+                                <span class="fas fa-angle-double-left category"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-application" asp-area="" asp-controller="ApplicationType" asp-action="Index">
+                                Application Type
+                                <span class="fas fa-angle-double-left application"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        }
+
+        <!---->
+        <div class="page-content" style="margin-left:10%; margin-right:5%">
+            @*<main role="main" class="pb-3 w-auto">*@
+                @RenderBody()
+            @*</main>*@
+        </div>
+    </div>
+      
+
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)
+
+</body>
+</html>
+<style>
+
+    a:link {
+        
+        text-decoration: none;
+    }
+    /* A link that has been visited */
+    a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+    /* A link that is hovered on */
+    a:hover {
+       
+        text-decoration: none;
+    }
+    /* A link that is selected */
+    a:active {
+        
+        text-decoration: none;
+    }
+</style>
+<script>
+    $(window).load(function () {
+        var height = window.innerHeight,
+            x = 0, y = height / 2,
+            curveX = 10,
+            curveY = 0,
+            targetX = 0,
+            xitteration = 0,
+            yitteration = 0,
+            menuExpanded = false;
+
+        blob = $('#blob'),
+            blobPath = $('#blob-path'),
+
+            hamburger = $('.hamburger');
+
+        $(this).on('mousemove', function (e) {
+            x = e.pageX;
+
+            y = e.pageY;
+        });
+
+        $('.hamburger, .menu-inner').on('mouseenter', function () {
+            $(this).parent().addClass('expanded');
+            menuExpanded = true;
+                  
+            $('.page-content').animate({ 'margin-left': '25%' }, 500);
+        });
+
+        $('.menu-inner').on('mouseleave', function () {
+            menuExpanded = false;
+            $(this).parent().removeClass('expanded');
+            $('.page-content').animate({ 'margin-left': '10%' }, 500);
+        });
+
+        function easeOutExpo(currentIteration, startValue, changeInValue, totalIterations) {
+            return changeInValue * (-Math.pow(2, -10 * currentIteration / totalIterations) + 1) + startValue;
+        }
+
+        var hoverZone = 150;
+        var expandAmount = 20;
+
+        function svgCurve() {
+            if ((curveX > x - 1) && (curveX < x + 1)) {
+                xitteration = 0;
+            } else {
+                if (menuExpanded) {
+                    targetX = 0;
+                } else {
+                    xitteration = 0;
+                    if (x > hoverZone) {
+                        targetX = 0;
+                    } else {
+                        targetX = -(((60 + expandAmount) / 100) * (x - hoverZone));
+                    }
+                }
+                xitteration++;
+            }
+
+            if ((curveY > y - 1) && (curveY < y + 1)) {
+                yitteration = 0;
+            } else {
+                yitteration = 0;
+                yitteration++;
+            }
+
+            curveX = easeOutExpo(xitteration, curveX, targetX - curveX, 100);
+            curveY = easeOutExpo(yitteration, curveY, y - curveY, 100);
+
+            var anchorDistance = 200;
+            var curviness = anchorDistance - 40;
+
+            var newCurve2 = "M60," + height + "H0V0h60v" + (curveY - anchorDistance) + "c0," + curviness + "," + curveX + "," + curviness + "," + curveX + "," + anchorDistance + "S60," + (curveY) + ",60," + (curveY + (anchorDistance * 2)) + "V" + height + "z";
+
+            blobPath.attr('d', newCurve2);
+
+            blob.width(curveX + 60);
+
+            hamburger.css('transform', 'translate(' + curveX + 'px, ' + curveY + 'px)');
+
+            //$('h2').css('transform', 'translateY(' + curveY + 'px)');
+            window.requestAnimationFrame(svgCurve);
+        }
+
+        window.requestAnimationFrame(svgCurve);
+
+    });
+
+    $('.menu-dealer').click(function () {
+      
+        $('ul .dealer').toggleClass("rotate");
+        $('ul .menu-show2').slideToggle(500);
+    
+    });
+    $('.menu-groupmgr').click(function () {
+
+        $('ul .groupmgr').toggleClass("rotate");
+        $('ul .menu-show3').slideToggle(500);
+
+    });
+    $('.menu-backoffice').click(function () {
+        
+        $('ul .backoffice').toggleClass("rotate");
+        $('ul .menu-show').slideToggle(500);
+       
+    });
+
+    $('ul li').click( function () {
+        $(this).addClass('show').siblings().removeClass('show');
+    });
+   
+
+
+</script>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" hidden>
+    <div class="container">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Reward_Backoffice</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ApplicationType" asp-action="Index">Application Type</a>
+                    </li>
+                    <!--  <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="DealersManagement" asp-action="Index">Dealer Management</a>
+                    </li>-->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dealer
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <a class="dropdown-item" asp-area="" asp-controller="DealersManagement" asp-action="Index">View Dealer</a>
+
+                            <!-- <a class="dropdown-item" href="#">Another action</a>
+
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Client
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <a class="dropdown-item" asp-area="" asp-controller="DealersManagement" asp-action="Index">Client Tier Manager</a>
+                            <a class="dropdown-item" asp-area="" asp-controller="DealersManagement" asp-action="Index">Client Manager</a>
+                            <a class="dropdown-item" asp-area="" asp-controller="DealersManagement" asp-action="Index">Client Access Control</a>
+
+
+
+                        </div>
+                    </li>
+                    <!--<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>-->
+                </ul>
+            </div>
+
+        }
+        <partial name="_LoginPartial.cshtml" />
+    </div>
+</nav> 
+

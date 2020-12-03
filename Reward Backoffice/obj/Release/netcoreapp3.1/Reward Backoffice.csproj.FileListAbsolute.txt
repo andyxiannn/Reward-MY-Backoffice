@@ -1,0 +1,159 @@
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\appsettings.json
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.exe
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.deps.json
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.runtimeconfig.json
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.runtimeconfig.dev.json
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.Views.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Reward Backoffice.Views.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.csprojAssemblyReference.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.AssemblyInfoInputs.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.AssemblyInfo.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.csproj.CoreCompileInputs.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.MvcApplicationPartsAssemblyInfo.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.RazorAssemblyInfo.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.RazorAssemblyInfo.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.TagHelpers.input.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.TagHelpers.output.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.RazorCoreGenerate.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\ApplicationType\Create.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\ApplicationType\Delete.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\ApplicationType\Edit.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\ApplicationType\Index.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Category\Create.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Category\Delete.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.RazorTargetAssemblyInfo.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.RazorTargetAssemblyInfo.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.Views.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.csproj.CopyComplete
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\staticwebassets\Reward Backoffice.StaticWebAssets.Manifest.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\staticwebassets\Reward Backoffice.StaticWebAssets.xml
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.pdb
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Release\netcoreapp3.1\Reward Backoffice.genruntimeconfig.cache
