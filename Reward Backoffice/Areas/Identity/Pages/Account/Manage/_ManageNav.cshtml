@@ -1,0 +1,44 @@
+﻿@inject SignInManager<Reward_BackofficeUser> SignInManager
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+<ul class="nav nav-pills flex-column nav1">
+    <li class="nav-item"><a class="nav-link @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">Profile</a></li>
+    <li class="nav-item"><a class="nav-link @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">Email</a></li>
+    <li class="nav-item"><a class="nav-link @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">Password</a></li>
+    @if (hasExternalLogins)
+    {
+        <li id="external-logins" class="nav-item"><a id="external-login" class="nav-link @ManageNavPages.ExternalLoginsNavClass(ViewContext)" asp-page="./ExternalLogins">External logins</a></li>
+    }
+    <li class="nav-item"><a class="nav-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">Two-factor authentication</a></li>
+    <li class="nav-item"><a class="nav-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">Personal data</a></li>
+</ul>
+
+<style>
+    .nav-item{
+        padding:10px;
+    }
+    .nav1 li a {
+        color: #1b6ec2;
+    }
+        .nav1 li a:link {
+            text-decoration: none;
+            color: #1b6ec2;
+        }
+    /* A link that has been visited */
+        .nav1 li a:visited {
+            color: #fff;
+            text-decoration: none;
+            color: #1b6ec2;
+        }
+    /* A link that is hovered on */
+        .nav1 li a:hover {
+            text-decoration: none;
+            color: #1b6ec2;
+        }
+    /* A link that is selected */
+        .nav1 li a:active {
+            text-decoration: none;
+            color: #1b6ec2;
+        }
+</style>

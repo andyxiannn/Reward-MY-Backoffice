@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Reward_Backoffice</RootNamespace>
+    <UserSecretsId>445e8cbd-0d0c-4a9b-ac8f-5f20d903e111</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

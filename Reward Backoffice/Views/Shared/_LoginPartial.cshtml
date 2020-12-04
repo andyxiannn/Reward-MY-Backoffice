@@ -7,14 +7,17 @@
 <ul class="nav navbar-top-links justify-content-end " !important>
 @if (SignInManager.IsSignedIn(User))
 {
-    <li class="nav-item text-nowrap p-3" !important>
-        <a id="manage" class="nav-link text-dark " asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello, @UserManager.GetUserName(User)!</a>
+    <li class="nav-item text-nowrap p-3" >
+        <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" style="color: #1b6ec2" >
+            Hello, @UserManager.GetUserAsync(User).Result.FirstName @UserManager.GetUserAsync(User).Result.LastName  
+            <i class="fas fa-user-edit"></i>
+        </a>
+       
     </li>
-    <li class="nav-item text-nowrap  p-3" !important>
+    <li class="nav-item text-nowrap  p-3" >
         <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <button id="logout" type="submit" class="nav-link btn btn-link text-dark" style="font-size:17px">Logout</button>
         </form>
     </li>
 }
-
 </ul>

@@ -1,0 +1,545 @@
+﻿<div id="menu">
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <!--Menu start-->
+    <div class="menu-inner">
+        <ul>
+            @* Backoffice Management *@
+            <li>
+                
+                <a href="#" class="menu">
+                    <span class="fas fa-angle-double-left"></span>
+                    Backoffice Management
+
+
+                </a>
+
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Group Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add Group
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View/Edit Group
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Backoffice User Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add Backoffice User
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View/Edit Backoffice User
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu-dealer">
+                            <span class="fas fa-angle-double-right"></span>
+                            Dealer
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View Dealer
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </li>
+            @* Backoffice Management end*@
+
+            @* Client Management *@
+            <li>
+                <a href="#" class="menu">
+                    Client Management
+                    <span class="fas fa-angle-double-left"></span>
+                </a>
+
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Client Tier Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add Group
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View/Edit Group
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Client Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View Client
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Client Access Control
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Edit Client Access
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View Client Access Request
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+            </li>
+            @* Client Management end *@
+
+
+            @* Reward Mangement *@
+            <li>
+                <a href="#" class="menu">
+                    Reward Manager
+                    <span class="fas fa-angle-double-left"></span>
+                </a>
+
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Reward Points Manager
+
+                        </a>
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add Reward Point
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View Client Reward Point History
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Reward Point Promotion
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Transfer Reward Point
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Product Category Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add Category
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View/Edit/Delete Category
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Product Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add Product
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View/Edit Product
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Redemption Manager
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Add New Redemption
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    View/Edit Redemption
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="menu" asp-area="" asp-controller="" asp-action="">
+                            <span class="fas fa-angle-double-right "></span>
+                            Inventory Manager
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            @* Reward Management end *@
+
+
+
+            @* Reward Reports *@
+            <li>
+                <a href="#" class="menu">
+                    Reward Reports
+                    <span class="fas fa-angle-double-left"></span>
+                </a>
+
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Redemption Reports
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    By Client
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    By Product
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    By Date
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Point Movement Report
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    By Client
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    By Dealer
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    By Branch
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Reward Point Reports
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Reward Point Report
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="#" class="menu">
+                            <span class="fas fa-angle-double-right"></span>
+                            Inventory Reports
+
+                        </a>
+
+                        <ul class="sub-menu2">
+                            <li>
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                    <span class="fas fa-angle-double-right "></span>
+                                    Inventory Report
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </li>
+            @* Reward Report end *@
+
+            @* Help Manger *@
+            <li>
+                <a href="#" class="menu">
+                    Help Manager
+                    <span class="fas fa-angle-double-left"></span>
+                </a>
+
+                <ul class="sub-menu">
+                    <li>
+
+                        <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                            <span class="fas fa-angle-double-right"></span>
+                            Add New Help
+                        </a>
+
+                    </li>
+                    <li>
+
+                        <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                            <span class="fas fa-angle-double-right"></span>
+                            View/ Edit Help
+
+                        </a>
+
+                    </li>
+                </ul>
+
+            </li>
+            @* Help Manager end *@
+
+            @* Page Manager *@
+            <li>
+                <a class="menu" asp-area="" asp-controller="" asp-action="">
+                    <span class="fas fa-angle-double-right "></span>
+                    Page Manager
+                </a>
+            </li>
+            @* Page Manager end *@
+
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    $(window).load(function () {
+        var height = window.innerHeight,
+            x = 0, y = height / 2,
+            curveX = 10,
+            curveY = 0,
+            targetX = 0,
+            xitteration = 0,
+            yitteration = 0,
+            menuExpanded = false;
+
+        blob = $('#blob'),
+            blobPath = $('#blob-path'),
+
+            hamburger = $('.hamburger');
+
+        $(this).on('mousemove', function (e) {
+            x = e.pageX;
+
+            y = e.pageY;
+        });
+       
+        $('.hamburger, .menu-inner').on('mouseenter', function () {
+            $(this).parent().addClass('expanded');
+            menuExpanded = true;
+           // $('.page-content').animate({ 'margin-left': '25%' }, 500);
+        });
+
+        $('.menu-inner').on('mouseleave', function () {
+            menuExpanded = false;
+            $(this).parent().removeClass('expanded');
+           // $('.page-content').animate({ 'margin-left': '10%' }, 500);
+        });
+
+        function easeOutExpo(currentIteration, startValue, changeInValue, totalIterations) {
+            return changeInValue * (-Math.pow(2, -10 * currentIteration / totalIterations) + 1) + startValue;
+        }
+
+        var hoverZone = 150;
+        var expandAmount = 20;
+
+        function svgCurve() {
+            if ((curveX > x - 1) && (curveX < x + 1)) {
+                xitteration = 0;
+            } else {
+                if (menuExpanded) {
+                    targetX = 0;
+                } else {
+                    xitteration = 0;
+                    if (x > hoverZone) {
+                        targetX = 0;
+                    } else {
+                        targetX = -(((60 + expandAmount) / 100) * (x - hoverZone));
+                    }
+                }
+                xitteration++;
+            }
+
+            if ((curveY > y - 1) && (curveY < y + 1)) {
+                yitteration = 0;
+            } else {
+                yitteration = 0;
+                yitteration++;
+            }
+
+            curveX = easeOutExpo(xitteration, curveX, targetX - curveX, 100);
+            curveY = easeOutExpo(yitteration, curveY, y - curveY, 100);
+
+            var anchorDistance = 200;
+            var curviness = anchorDistance - 40;
+
+            var newCurve2 = "M60," + height + "H0V0h60v" + (curveY - anchorDistance) + "c0," + curviness + "," + curveX + "," + curviness + "," + curveX + "," + anchorDistance + "S60," + (curveY) + ",60," + (curveY + (anchorDistance * 2)) + "V" + height + "z";
+
+            blobPath.attr('d', newCurve2);
+
+            blob.width(curveX + 60);
+
+            hamburger.css('transform', 'translate(' + curveX + 'px, ' + curveY + 'px)');
+
+            //$('h2').css('transform', 'translateY(' + curveY + 'px)');
+            window.requestAnimationFrame(svgCurve);
+        }
+
+        window.requestAnimationFrame(svgCurve);
+
+    });
+
+    $(".menu-inner li a").not($('.sub-menu li a')).click(function () {        
+        $('ul.sub-menu').not($(this).siblings()).slideUp();
+        $(this).siblings("ul.sub-menu").slideToggle();
+               
+       // $(".menu-inner li a span").css('transform', 'rotate(-90deg)');
+       
+    });
+
+    $(".sub-menu li a").click(function () {
+       
+        $('ul.sub-menu2').not($(this).siblings()).slideUp();
+        $(this).siblings("ul.sub-menu2").slideToggle();
+    });
+</script>
