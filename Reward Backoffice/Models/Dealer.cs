@@ -25,8 +25,10 @@ namespace Reward_Backoffice.Models
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string email { get; set; } = "";
         public string IC { get; set; } = "";
+
         [DisplayName("Status")]
         public bool status { get; set; } = false;
+
         [DisplayName("Cost Sharing")]
         [Range(0, 100, ErrorMessage = "Cost sharing must be greater than 0 and less than 100")]
         public decimal cost_sharing { get; set; } = 0;

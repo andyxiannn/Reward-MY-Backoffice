@@ -1,0 +1,169 @@
+﻿@*@model List<Reward_Backoffice.Models.Client>*@
+@model dynamic
+
+@*@foreach (var item in Model.Client)
+    {*@
+<form method="post">
+    @*<input asp-for="client_id" hidden />*@
+    <div class="border p-2">
+
+        <div class="form-group row">
+
+            <h2 class="text-info pl-3">View Client</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                @foreach (dynamic item in Model.searchclient)
+                {
+                    var ClientName  = item.GetType().GetProperty("client_name").GetValue(item);
+                    var Branchname  = item.GetType().GetProperty("branch_name").GetValue(item);
+                    var IC          = item.GetType().GetProperty("IC").GetValue(item);
+                    var Birthday    = item.GetType().GetProperty("birthday").GetValue(item);
+                    var ClientCode  = item.GetType().GetProperty("client_code").GetValue(item);
+                    var ClientType  = item.GetType().GetProperty("client_type").GetValue(item);
+                    var Passport    = item.GetType().GetProperty("passport").GetValue(item);
+                    var Email       = item.GetType().GetProperty("email").GetValue(item);
+                    var status      = item.GetType().GetProperty("status").GetValue(item).ToString().Equals("True")? "Active":"Inactive";
+                    var DateAdded   = item.GetType().GetProperty("date_added").GetValue(item);
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @* <label asp-for="client_name"></label>*@
+                            <label>Client Name</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="client_name" class="form-control" disabled />*@
+                            @*@item.client_name*@
+                            <input value="@ClientName" class="form-control" disabled />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @* <label asp-for="client_name"></label>*@
+                            <label>Branch</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="client_name" class="form-control" disabled />*@
+                            <input value="@Branchname" class="form-control" disabled />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="IC"></label>*@
+                            <label>IC</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="IC" class="form-control" disabled />*@
+                            <input value="@IC" class="form-control" disabled />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="birthday"></label>*@
+                            <label>Birthday</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="birthday" class="form-control" disabled />*@
+                            <input value="@Birthday" class="form-control" disabled />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="client_code"></label>*@
+                            <label>Client Code</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="client_code" class="form-control" disabled />*@
+                            <input value="@ClientCode" class="form-control" disabled />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="client_type"></label>*@
+                            <label>Client Type</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="client_type" class="form-control" disabled />*@
+                            <input value="@ClientType" class="form-control" disabled />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="passport"></label>*@
+                            <label>Passport</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="passport" class="form-control" disabled />*@
+                            <input value="@Passport" class="form-control" disabled />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="email"></label>*@
+                            <label>Email</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="email" class="form-control" disabled />*@
+                            <input value="@Email" class="form-control" disabled />
+                        </div>
+                    </div>
+                    @*<div class="form-group row">
+                        <div class="col-4">
+                            <label asp-for="branch_id"></label>
+                        </div>
+                        <div class="col-8">
+                            <input asp-for="branch_id" class="form-control" disabled />
+
+                        </div>
+                    </div>*@
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="status"></label>*@
+                            <label>Status</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="status" class="form-control" disabled />*@
+                            <input value="@status" class="form-control" disabled />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-4">
+                            @*<label asp-for="date_added"></label>*@
+                            <label>Registration Date</label>
+                        </div>
+                        <div class="col-8">
+                            @*<input asp-for="date_added" class="form-control" disabled />*@
+                            <input value="@DateAdded" class="form-control" disabled /> 
+                        </div>
+                    </div>
+                 }
+                <div class="form-group row">
+                    <div class="col-8 offset-4 row">
+                        <div class="col">
+                            <input type="submit" class="btn btn-info w-100" value="Update" hidden />
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-success w-100"><i class="fas fa-sign-out-alt"></i> Back</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</form>
+
+@section Scripts{
+
+    @{
+        <partial_name ="_ValidationScriptsPartial" />
+    }
+}

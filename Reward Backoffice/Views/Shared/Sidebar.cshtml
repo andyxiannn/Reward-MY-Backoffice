@@ -28,7 +28,7 @@
 
                         <ul class="sub-menu2">
                             <li>
-                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
+                                <a href="#">
                                     <span class="fas fa-angle-double-right "></span>
                                     Add Group
                                 </a>
@@ -73,7 +73,7 @@
 
                         <ul class="sub-menu2">
                             <li>
-                                <a href="#">
+                                <a asp-area="" asp-controller="DealersManagement" asp-action="Index">
                                     <span class="fas fa-angle-double-right "></span>
                                     View Dealer
                                 </a>
@@ -126,7 +126,7 @@
 
                         <ul class="sub-menu2">
                             <li>
-                                <a href="#">
+                                <a asp-area="" asp-controller="Client" asp-action="Index">
                                     <span class="fas fa-angle-double-right "></span>
                                     View Client
                                 </a>
@@ -278,7 +278,7 @@
                     </li>
 
                     <li>
-                        <a class="menu" >
+                        <a href="#" class="menu" >
                             <span class="fas fa-angle-double-right "></span>
                             Inventory Manager
                         </a>
@@ -530,12 +530,14 @@
 
     });
 
+    //open submenu and close other submenu
     $(".menu-inner li a").not($('.sub-menu li a')).click(function () {      
         $('ul.sub-menu').not($(this).siblings()).slideUp().removeClass('active');      
         $(this).siblings("ul.sub-menu").slideToggle();     
        
     });
 
+    //open submenu2 and close other submenu2
     $(".sub-menu li a").not($('.sub-menu2 li a')).click(function () {        
         $('ul.sub-menu2').not($(this).siblings()).slideUp().removeClass('active');       
         $(this).siblings("ul.sub-menu2").slideToggle();   
@@ -544,15 +546,15 @@
 
 
     //to keep the submenu open when the page is refreshed
+    //sub-menu = active , sub-menu2 = active
     var url = window.location;
    
     var element = $('.sub-menu2 li a').filter(function () {        
         return this.href == url || url.href.indexOf(this.href) == 0;       
     }).addClass('selected').parent().parent().addClass('active').parent().parent().addClass('active');
-
-    if (element.is('ul')) {       
-        $(".selected").css('color', '#dc3545');      
-    }
+   
+    $(".selected").css('color', '#dc3545');
+    
     
  
     

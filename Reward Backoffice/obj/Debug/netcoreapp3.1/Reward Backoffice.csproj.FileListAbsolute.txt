@@ -141,7 +141,6 @@ D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Vie
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\Category\Delete.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\ApplicationType\Edit.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\ApplicationType\Delete.cshtml.g.cs
-D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.csprojAssemblyReference.cache
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\DealersManagement\Index.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\DealersManagement\Views.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\DealersManagement\Create.cshtml.g.cs
@@ -440,9 +439,6 @@ D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\Microsoft
 D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\Humanizer.dll
-D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.csproj.CoreCompileInputs.cache
-D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.MvcApplicationPartsAssemblyInfo.cs
-D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.MvcApplicationPartsAssemblyInfo.cache
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
@@ -458,3 +454,11 @@ D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\runtimes\
 D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Sidebar.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\Client\Index.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.csprojAssemblyReference.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\NinjaNye.SearchExtensions.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Razor\Views\Client\Views.cshtml.g.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.csproj.CoreCompileInputs.cache
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.MvcApplicationPartsAssemblyInfo.cs
+D:\inetpub\Reward Backoffice\Reward Backoffice\obj\Debug\netcoreapp3.1\Reward Backoffice.MvcApplicationPartsAssemblyInfo.cache

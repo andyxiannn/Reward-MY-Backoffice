@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Reward_Backoffice.IService;
 using Reward_Backoffice.Models;
 using System;
@@ -21,33 +23,74 @@ namespace Reward_Backoffice.Controllers
             _dealerService = dealerService;
         }
         // GET: api/<DealerController>
-        [HttpGet]
+       
+        //[HttpGet]
+        [HttpGet("GetDealers")]
         public IEnumerable<Dealer> GetDealers()
         {
             return _dealerService.GetDealers();
         }
 
+        [HttpGet("GetClients")]
+        public IEnumerable<Client> GetClients()
+        {
+            return _dealerService.GetClients();
+        }
         // GET api/<DealerController>/5
-        [HttpGet("{id}")]
-        public Dealer Get(int id)
-        {
-            return _dealerService.GetById(id) ;
+        [HttpPost("SearchClient/{searchTerm}")]       
+        public IEnumerable<Client> SearchClient(string searchTerm)
+        {            
+            var result = _dealerService.SearchClient(searchTerm);
+            //if (!result.Any())
+            //{
+            //    return NotFound(namelike);
+            //}
+            return (result);
         }
+        //public async Task<IEnumerable<Client>> GetClientById(int id)
 
-        // POST api/<DealerController>
-        [HttpPost]
-        public void SaveOrUpdate([FromForm] Dealer dealer)
-        {
-            if (dealer.DealerId == 0) _dealerService.Save(dealer);
-            else _dealerService.Update(dealer);
-        }
+        //{
+
+        //try
+        //{
+        //    var result = await _dealerService.GetClientById(id);
+
+        //    if (result.Any())
+        //    {
+        //        return (IEnumerable<Client>)Ok(result);
+        //    }
+        //    return (IEnumerable<Client>)NotFound();
+        //}
+        //catch(Exception)
+        //{
+        //    return (IEnumerable<Client>)StatusCode(StatusCodes.Status500InternalServerError,
+        //        "Error retrieving data from the database");
+        //}
 
 
-        // DELETE api/<DealerController>/5
-        [HttpDelete("{id}")]
-        public string Delete(int id)
-        {   
-            return _dealerService.Delete(id);
-        }
+        //return _dealerService.GetClientById(id);
+        //}
+        // GET api/<DealerController>/5
+        //[HttpGet("{id}")]
+        //public Dealer Get(int id)
+        //{
+        //    return _dealerService.GetById(id) ;
+        //}
+
+        //// POST api/<DealerController>
+        //[HttpPost]
+        //public void SaveOrUpdate([FromForm] Dealer dealer)
+        //{
+        //    if (dealer.DealerId == 0) _dealerService.Save(dealer);
+        //    else _dealerService.Update(dealer);
+        //}
+
+
+        //// DELETE api/<DealerController>/5
+        //[HttpDelete("{id}")]
+        //public string Delete(int id)
+        //{   
+        //    return _dealerService.Delete(id);
+        //}
     }
 }

@@ -31,7 +31,7 @@ namespace Reward_Backoffice.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.z3s1o_Dealers.Add(obj);
+                _db.z3s1o_dealers.Add(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -45,7 +45,7 @@ namespace Reward_Backoffice.Controllers
                 return NotFound();
             }
 
-            var obj = _db.z3s1o_Dealers.Find(id);
+            var obj = _db.z3s1o_dealers.Find(id);
 
             if (obj == null)
             {
@@ -54,20 +54,21 @@ namespace Reward_Backoffice.Controllers
             return View(obj);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Views(Dealer obj)
-        {
-            if (ModelState.IsValid)
-            {
-                _db.z3s1o_Dealers.Update(obj);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(obj);
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult Views(Dealer obj)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _db.z3s1o_dealers.Update(obj);
+        //        _db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(obj);
 
-        }
+        //}
 
+        //redirect to edit page
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
@@ -75,7 +76,7 @@ namespace Reward_Backoffice.Controllers
                 return NotFound();
             }
 
-            var obj = _db.z3s1o_Dealers.Find(id);
+            var obj = _db.z3s1o_dealers.Find(id);
 
             if (obj == null)
             {
@@ -84,13 +85,14 @@ namespace Reward_Backoffice.Controllers
             return View(obj);
         }
 
+        //function to save post when edit
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Dealer obj)
         {
             if (ModelState.IsValid)
             {
-                _db.z3s1o_Dealers.Update(obj);
+                _db.z3s1o_dealers.Update(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -100,46 +102,34 @@ namespace Reward_Backoffice.Controllers
 
 
         public IActionResult Delete(int? id)
-        {
-            /*if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-
-            var obj = _db.z3s1o_Dealers.Find(id);
-
-            if (obj == null)
-            {
-                return NotFound();
-            }
-            return View(obj);*/
-            var obj = _db.z3s1o_Dealers.Find(id);
+        {            
+            var obj = _db.z3s1o_dealers.Find(id);
             if (obj == null)
             {
                 //return Json(new { success = false, message = "Error while delete" });
                 return RedirectToAction("Index");
             }
 
-            _db.z3s1o_Dealers.Remove(obj);
+            _db.z3s1o_dealers.Remove(obj);
             _db.SaveChanges();
             return Json(new { success = true, Message = "Success!" }) ;
             //return RedirectToAction("Index");
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeletePost(int? id)
-        {
-            var obj = _db.z3s1o_Dealers.Find(id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult DeletePost(int? id)
+        //{
+        //    var obj = _db.z3s1o_dealers.Find(id);
+        //    if (obj == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            _db.z3s1o_Dealers.Remove(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+        //    _db.z3s1o_dealers.Remove(obj);
+        //    _db.SaveChanges();
+        //    return RedirectToAction("Index");
 
-        }
+        //}
     }
 }
